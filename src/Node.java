@@ -16,4 +16,9 @@ public class Node {
 	public void setData(int data) {
 		this.data = data;
 	}
+	public int getIntData() {
+		if(data < 0)
+			return 0;
+		return 1;
+	}
 }
